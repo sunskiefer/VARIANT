@@ -35,5 +35,5 @@ A note played into the track transposes both sequences (middle C = no transposit
 128 factory presets are in MPC's PRESET menu; save your own the normal MPC way. Each page has its own Q-Link set for the controls shown on it.
 The data wheel steps the selected option or value.
 
-## Not tested yet
-This version has not been run on a Force. Please report what works and what does not.
+## Status
+Works on the Akai Force (tested by the author). Please report anything odd on the Force or on an MPC.
