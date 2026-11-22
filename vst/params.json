@@ -1,0 +1,1394 @@
+{
+ "name": "VARIANT",
+ "params": [
+  {
+   "key": "tempo",
+   "name": "TEMPO",
+   "min": 30,
+   "max": 300,
+   "default": 120,
+   "display": "int"
+  },
+  {
+   "key": "corr1",
+   "name": "CORR 1",
+   "min": 0,
+   "max": 100,
+   "default": 0,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "corr2",
+   "name": "CORR 2",
+   "min": 0,
+   "max": 100,
+   "default": 0,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "range1",
+   "name": "RANGE 1",
+   "min": 1,
+   "max": 10,
+   "default": 3,
+   "display": "int"
+  },
+  {
+   "key": "range2",
+   "name": "RANGE 2",
+   "min": 1,
+   "max": 10,
+   "default": 3,
+   "display": "int"
+  },
+  {
+   "key": "egmix",
+   "name": "EG MIX",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "run",
+   "name": "RUN / STOP",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "trigger",
+   "name": "TRIGGER",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "chain",
+   "name": "CHAIN SEQ",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "buffer",
+   "name": "BUFFER",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "reset",
+   "name": "RESET",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "advance",
+   "name": "ADVANCE",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "len1",
+   "name": "LEN 1",
+   "options": [
+    "LEN 1",
+    "LEN 2",
+    "LEN 3",
+    "LEN 4",
+    "LEN 5",
+    "LEN 6",
+    "LEN 7",
+    "LEN 8"
+   ],
+   "default": 7
+  },
+  {
+   "key": "len2",
+   "name": "LEN 2",
+   "options": [
+    "LEN 1",
+    "LEN 2",
+    "LEN 3",
+    "LEN 4",
+    "LEN 5",
+    "LEN 6",
+    "LEN 7",
+    "LEN 8"
+   ],
+   "default": 7
+  },
+  {
+   "key": "shift1_l",
+   "name": "SHIFT 1 LEFT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "shift1_r",
+   "name": "SHIFT 1 RIGHT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "shift2_l",
+   "name": "SHIFT 2 LEFT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "shift2_r",
+   "name": "SHIFT 2 RIGHT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "flip1",
+   "name": "FLIP 1",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "flip2",
+   "name": "FLIP 2",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "bit1_1",
+   "name": "SEQ 1 STEP 1",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit1_2",
+   "name": "SEQ 1 STEP 2",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit1_3",
+   "name": "SEQ 1 STEP 3",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit1_4",
+   "name": "SEQ 1 STEP 4",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit1_5",
+   "name": "SEQ 1 STEP 5",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit1_6",
+   "name": "SEQ 1 STEP 6",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit1_7",
+   "name": "SEQ 1 STEP 7",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit1_8",
+   "name": "SEQ 1 STEP 8",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit2_1",
+   "name": "SEQ 2 STEP 1",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit2_2",
+   "name": "SEQ 2 STEP 2",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit2_3",
+   "name": "SEQ 2 STEP 3",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit2_4",
+   "name": "SEQ 2 STEP 4",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit2_5",
+   "name": "SEQ 2 STEP 5",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit2_6",
+   "name": "SEQ 2 STEP 6",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "bit2_7",
+   "name": "SEQ 2 STEP 7",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "bit2_8",
+   "name": "SEQ 2 STEP 8",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "pos1",
+   "name": "PLAYHEAD 1",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "-"
+   ],
+   "default": 8,
+   "poll": false
+  },
+  {
+   "key": "pos2",
+   "name": "PLAYHEAD 2",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "-"
+   ],
+   "default": 8,
+   "poll": false
+  },
+  {
+   "key": "tx_bpm",
+   "name": "BPM TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_scale_full",
+   "name": "SCALE TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_root_full",
+   "name": "ROOT TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_rate_full",
+   "name": "RATE TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "amount",
+   "name": "AMOUNT",
+   "min": 0,
+   "max": 100,
+   "default": 70,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "density",
+   "name": "DENSITY",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "spread",
+   "name": "SPREAD",
+   "min": 1,
+   "max": 10,
+   "default": 3,
+   "display": "int"
+  },
+  {
+   "key": "velvar",
+   "name": "VEL VAR",
+   "min": 0,
+   "max": 100,
+   "default": 25,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "gatevar",
+   "name": "GATE VAR",
+   "min": 0,
+   "max": 100,
+   "default": 40,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "evolve",
+   "name": "EVOLVE",
+   "min": 0,
+   "max": 100,
+   "default": 20,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "randomize",
+   "name": "RANDOMIZE",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "undo",
+   "name": "UNDO",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "redo",
+   "name": "REDO",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "lock1",
+   "name": "LOCK 1",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "lock2",
+   "name": "LOCK 2",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "scope",
+   "name": "SCOPE",
+   "options": [
+    "BITS",
+    "NOTES",
+    "VELOC",
+    "ALL"
+   ],
+   "default": 3
+  },
+  {
+   "key": "target",
+   "name": "TARGET",
+   "options": [
+    "SEQ 1",
+    "SEQ 2",
+    "BOTH"
+   ],
+   "default": 2
+  },
+  {
+   "key": "seedlock",
+   "name": "SEED LOCK",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "evolve_on",
+   "name": "EVOLVE ON",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "seed",
+   "name": "SEED",
+   "min": 1,
+   "max": 99999,
+   "default": 48213,
+   "display": "int"
+  },
+  {
+   "key": "seed_prev",
+   "name": "SEED PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "seed_next",
+   "name": "SEED NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "seed_new",
+   "name": "NEW SEED",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true
+  },
+  {
+   "key": "every",
+   "name": "EVERY",
+   "options": [
+    "1 BAR",
+    "2 BARS",
+    "4 BARS",
+    "8 BARS",
+    "16 BARS"
+   ],
+   "default": 2
+  },
+  {
+   "key": "every_prev",
+   "name": "EVERY PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "every",
+   "step_delta": -1
+  },
+  {
+   "key": "every_next",
+   "name": "EVERY NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "every",
+   "step_delta": 1
+  },
+  {
+   "key": "tx_seed",
+   "name": "SEED TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_seed_full",
+   "name": "SEED TEXT FULL",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_scope_full",
+   "name": "SCOPE TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_target_full",
+   "name": "TARGET TEXT",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "prob1",
+   "name": "PROB 1",
+   "min": 0,
+   "max": 100,
+   "default": 100,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "prob2",
+   "name": "PROB 2",
+   "min": 0,
+   "max": 100,
+   "default": 100,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "ratchet",
+   "name": "RATCHET",
+   "min": 0,
+   "max": 100,
+   "default": 0,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "swing",
+   "name": "SWING",
+   "min": 50,
+   "max": 75,
+   "default": 50,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "human",
+   "name": "HUMAN",
+   "min": 0,
+   "max": 100,
+   "default": 0,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "gate",
+   "name": "GATE",
+   "min": 10,
+   "max": 100,
+   "default": 60,
+   "display": "int",
+   "unit": "%"
+  },
+  {
+   "key": "scale",
+   "name": "SCALE",
+   "options": [
+    "CHROMATIC",
+    "MAJOR",
+    "DORIAN",
+    "PENTATONIC",
+    "MEL MINOR",
+    "HARM MINOR",
+    "DIMINISHED",
+    "WHOLE TONE",
+    "HIRAJOSHI",
+    "7SUS4",
+    "MAJ7",
+    "MAJ13",
+    "MIN11",
+    "HANG DRUM",
+    "QUADS",
+    "BLUES"
+   ],
+   "default": 2
+  },
+  {
+   "key": "root",
+   "name": "ROOT",
+   "options": [
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B"
+   ],
+   "default": 0
+  },
+  {
+   "key": "scale_prev",
+   "name": "SCALE PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "scale",
+   "step_delta": -1
+  },
+  {
+   "key": "scale_next",
+   "name": "SCALE NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "scale",
+   "step_delta": 1
+  },
+  {
+   "key": "root_prev",
+   "name": "ROOT PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "root",
+   "step_delta": -1
+  },
+  {
+   "key": "root_next",
+   "name": "ROOT NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "root",
+   "step_delta": 1
+  },
+  {
+   "key": "ch1",
+   "name": "CH 1",
+   "min": 1,
+   "max": 16,
+   "default": 1,
+   "display": "int"
+  },
+  {
+   "key": "ch2",
+   "name": "CH 2",
+   "min": 1,
+   "max": 16,
+   "default": 2,
+   "display": "int"
+  },
+  {
+   "key": "ch1_prev",
+   "name": "CH 1 PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "ch1",
+   "step_delta": -1
+  },
+  {
+   "key": "ch1_next",
+   "name": "CH 1 NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "ch1",
+   "step_delta": 1
+  },
+  {
+   "key": "ch2_prev",
+   "name": "CH 2 PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "ch2",
+   "step_delta": -1
+  },
+  {
+   "key": "ch2_next",
+   "name": "CH 2 NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "ch2",
+   "step_delta": 1
+  },
+  {
+   "key": "mute1",
+   "name": "MUTE 1",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "mute2",
+   "name": "MUTE 2",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 0
+  },
+  {
+   "key": "rate1",
+   "name": "RATE 1",
+   "options": [
+    "1",
+    "1/2",
+    "1/4",
+    "1/8",
+    "1/8T",
+    "1/16",
+    "1/16T",
+    "1/32"
+   ],
+   "default": 5
+  },
+  {
+   "key": "rate2",
+   "name": "RATE 2",
+   "options": [
+    "1",
+    "1/2",
+    "1/4",
+    "1/8",
+    "1/8T",
+    "1/16",
+    "1/16T",
+    "1/32"
+   ],
+   "default": 5
+  },
+  {
+   "key": "rate1_prev",
+   "name": "RATE 1 PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "rate1",
+   "step_delta": -1
+  },
+  {
+   "key": "rate1_next",
+   "name": "RATE 1 NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "rate1",
+   "step_delta": 1
+  },
+  {
+   "key": "rate2_prev",
+   "name": "RATE 2 PREV",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "rate2",
+   "step_delta": -1
+  },
+  {
+   "key": "rate2_next",
+   "name": "RATE 2 NEXT",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "momentary": true,
+   "step_of": "rate2",
+   "step_delta": 1
+  },
+  {
+   "key": "ratelink",
+   "name": "RATE LINK",
+   "options": [
+    "off",
+    "on"
+   ],
+   "default": 1
+  },
+  {
+   "key": "tx_scale",
+   "name": "SCALE NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_root",
+   "name": "ROOT NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_outch",
+   "name": "OUT CHANNELS",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_ch1",
+   "name": "CH 1 NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_ch2",
+   "name": "CH 2 NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_rate1",
+   "name": "RATE 1 NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_rate2",
+   "name": "RATE 2 NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "tx_every",
+   "name": "EVERY NAME",
+   "display": "string",
+   "type": "readout",
+   "poll": true
+  },
+  {
+   "key": "note1_1",
+   "name": "SEQ 1 NOTE 1",
+   "min": 0,
+   "max": 127,
+   "default": 48,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_2",
+   "name": "SEQ 1 NOTE 2",
+   "min": 0,
+   "max": 127,
+   "default": 85,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_3",
+   "name": "SEQ 1 NOTE 3",
+   "min": 0,
+   "max": 127,
+   "default": 122,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_4",
+   "name": "SEQ 1 NOTE 4",
+   "min": 0,
+   "max": 127,
+   "default": 31,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_5",
+   "name": "SEQ 1 NOTE 5",
+   "min": 0,
+   "max": 127,
+   "default": 68,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_6",
+   "name": "SEQ 1 NOTE 6",
+   "min": 0,
+   "max": 127,
+   "default": 105,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_7",
+   "name": "SEQ 1 NOTE 7",
+   "min": 0,
+   "max": 127,
+   "default": 14,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note1_8",
+   "name": "SEQ 1 NOTE 8",
+   "min": 0,
+   "max": 127,
+   "default": 51,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_1",
+   "name": "SEQ 2 NOTE 1",
+   "min": 0,
+   "max": 127,
+   "default": 59,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_2",
+   "name": "SEQ 2 NOTE 2",
+   "min": 0,
+   "max": 127,
+   "default": 96,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_3",
+   "name": "SEQ 2 NOTE 3",
+   "min": 0,
+   "max": 127,
+   "default": 5,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_4",
+   "name": "SEQ 2 NOTE 4",
+   "min": 0,
+   "max": 127,
+   "default": 42,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_5",
+   "name": "SEQ 2 NOTE 5",
+   "min": 0,
+   "max": 127,
+   "default": 79,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_6",
+   "name": "SEQ 2 NOTE 6",
+   "min": 0,
+   "max": 127,
+   "default": 116,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_7",
+   "name": "SEQ 2 NOTE 7",
+   "min": 0,
+   "max": 127,
+   "default": 25,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "note2_8",
+   "name": "SEQ 2 NOTE 8",
+   "min": 0,
+   "max": 127,
+   "default": 62,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_1",
+   "name": "SEQ 1 VEL 1",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_2",
+   "name": "SEQ 1 VEL 2",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_3",
+   "name": "SEQ 1 VEL 3",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_4",
+   "name": "SEQ 1 VEL 4",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_5",
+   "name": "SEQ 1 VEL 5",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_6",
+   "name": "SEQ 1 VEL 6",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_7",
+   "name": "SEQ 1 VEL 7",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel1_8",
+   "name": "SEQ 1 VEL 8",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_1",
+   "name": "SEQ 2 VEL 1",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_2",
+   "name": "SEQ 2 VEL 2",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_3",
+   "name": "SEQ 2 VEL 3",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_4",
+   "name": "SEQ 2 VEL 4",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_5",
+   "name": "SEQ 2 VEL 5",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_6",
+   "name": "SEQ 2 VEL 6",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_7",
+   "name": "SEQ 2 VEL 7",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "vel2_8",
+   "name": "SEQ 2 VEL 8",
+   "min": 1,
+   "max": 127,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_1",
+   "name": "SEQ 1 GATE 1",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_2",
+   "name": "SEQ 1 GATE 2",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_3",
+   "name": "SEQ 1 GATE 3",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_4",
+   "name": "SEQ 1 GATE 4",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_5",
+   "name": "SEQ 1 GATE 5",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_6",
+   "name": "SEQ 1 GATE 6",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_7",
+   "name": "SEQ 1 GATE 7",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat1_8",
+   "name": "SEQ 1 GATE 8",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_1",
+   "name": "SEQ 2 GATE 1",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_2",
+   "name": "SEQ 2 GATE 2",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_3",
+   "name": "SEQ 2 GATE 3",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_4",
+   "name": "SEQ 2 GATE 4",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_5",
+   "name": "SEQ 2 GATE 5",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_6",
+   "name": "SEQ 2 GATE 6",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_7",
+   "name": "SEQ 2 GATE 7",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  },
+  {
+   "key": "gat2_8",
+   "name": "SEQ 2 GATE 8",
+   "min": 25,
+   "max": 200,
+   "default": 100,
+   "display": "int",
+   "poll": false
+  }
+ ]
+}

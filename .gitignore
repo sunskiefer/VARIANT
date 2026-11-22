@@ -1,0 +1,5 @@
+build/
+dist/
+vst/build/
+__pycache__/
+*.pyc
