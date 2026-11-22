@@ -4,7 +4,7 @@ Dual generative 8-step MIDI sequencer for the Akai Force / MPC OS (VST2, ARMv7),
 it sends notes to other tracks over MIDI. Two sequences, a bit pattern per step, a randomizer with undo/redo and seeds,
 16 scales, chain mode and a pattern buffer. Built from a Max for Live device (Labyrinth) as the model; the panel is our own drawing.
 
-**Status: 0.1.2, not yet tested on a Force.** It is built for MPC OS 3.x (first-generation ARMv7 devices, like the Force).
+**Status: 0.1.2, tested on a Force.** It is built for MPC OS 3.x (first-generation ARMv7 devices, like the Force).
 The catalog check passes; the sequencer timing, the MIDI port and the touch screen have not been run on real hardware yet.
 
 ## What it does
