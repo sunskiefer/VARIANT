@@ -1,0 +1,102 @@
+id,page,type,key,x,y,w,h,printed_label,label_px
+1,1,knob,tempo,48,62,116,116,"tempo (live name 35.7 px, value 37.4 px)",36
+2,1,knob,corr1,262,62,116,116,"corr1 (live name 35.7 px, value 37.4 px)",36
+3,1,knob,corr2,475,62,116,116,"corr2 (live name 35.7 px, value 37.4 px)",36
+4,1,knob,range1,688,62,116,116,"range1 (live name 35.7 px, value 37.4 px)",36
+5,1,knob,range2,902,62,116,116,"range2 (live name 35.7 px, value 37.4 px)",36
+6,1,knob,egmix,1115,62,116,116,"egmix (live name 35.7 px, value 37.4 px)",36
+7,1,ro,tx_bpm,380,8,180,38,"",30
+8,1,ro,tx_scale_full,580,8,210,38,"",30
+9,1,ro,tx_root_full,810,8,150,38,"",30
+10,1,ro,tx_rate_full,980,8,150,38,"",30
+11,1,toggle,run,16,290,172,100,"RUN / STOP",26
+12,1,button,trigger,204,290,172,100,"TRIGGER",30
+13,1,toggle,chain,16,402,172,100,"CHAIN SEQ",26
+14,1,toggle,buffer,204,402,172,100,"BUFFER",30
+15,1,button,reset,16,514,172,100,"RESET",30
+16,1,button,advance,204,514,172,100,"ADVANCE",30
+17,1,toggle,bit1_1,488,294,90,62,"1",30
+18,1,toggle,bit1_2,584,294,90,62,"2",30
+19,1,toggle,bit1_3,680,294,90,62,"3",30
+20,1,toggle,bit1_4,776,294,90,62,"4",30
+21,1,toggle,bit1_5,872,294,90,62,"5",30
+22,1,toggle,bit1_6,968,294,90,62,"6",30
+23,1,toggle,bit1_7,1064,294,90,62,"7",30
+24,1,toggle,bit1_8,1160,294,90,62,"8",30
+25,1,popup,len1,396,372,204,66,"",30
+26,1,button,shift1_l,612,372,204,66,"SHIFT ◄",30
+27,1,button,shift1_r,828,372,204,66,"SHIFT ►",30
+28,1,button,flip1,1044,372,204,66,"FLIP",30
+29,1,toggle,bit2_1,488,466,90,62,"1",30
+30,1,toggle,bit2_2,584,466,90,62,"2",30
+31,1,toggle,bit2_3,680,466,90,62,"3",30
+32,1,toggle,bit2_4,776,466,90,62,"4",30
+33,1,toggle,bit2_5,872,466,90,62,"5",30
+34,1,toggle,bit2_6,968,466,90,62,"6",30
+35,1,toggle,bit2_7,1064,466,90,62,"7",30
+36,1,toggle,bit2_8,1160,466,90,62,"8",30
+37,1,popup,len2,396,544,204,66,"",30
+38,1,button,shift2_l,612,544,204,66,"SHIFT ◄",30
+39,1,button,shift2_r,828,544,204,66,"SHIFT ►",30
+40,1,button,flip2,1044,544,204,66,"FLIP",30
+41,2,knob,amount,48,62,116,116,"amount (live name 35.7 px, value 37.4 px)",36
+42,2,knob,density,262,62,116,116,"density (live name 35.7 px, value 37.4 px)",36
+43,2,knob,spread,475,62,116,116,"spread (live name 35.7 px, value 37.4 px)",36
+44,2,knob,velvar,688,62,116,116,"velvar (live name 35.7 px, value 37.4 px)",36
+45,2,knob,gatevar,902,62,116,116,"gatevar (live name 35.7 px, value 37.4 px)",36
+46,2,knob,evolve,1115,62,116,116,"evolve (live name 35.7 px, value 37.4 px)",36
+47,2,ro,tx_seed_full,580,8,210,38,"",30
+48,2,ro,tx_scope_full,810,8,150,38,"",30
+49,2,ro,tx_target_full,980,8,150,38,"",30
+50,2,button,randomize,16,290,360,100,"RANDOMIZE",26
+51,2,button,undo,16,402,172,100,"UNDO",30
+52,2,button,redo,204,402,172,100,"REDO",30
+53,2,toggle,lock1,16,514,172,100,"LOCK 1",30
+54,2,toggle,lock2,204,514,172,100,"LOCK 2",30
+55,2,seg,scope#0,508,294,182,62,"",26
+56,2,seg,scope#1,696,294,182,62,"",26
+57,2,seg,scope#2,884,294,182,62,"",26
+58,2,seg,scope#3,1072,294,182,62,"",26
+59,2,button,seed_prev,396,372,204,66,"SEED ◄",30
+60,2,ro,tx_seed,612,372,204,66,"",30
+61,2,button,seed_next,828,372,204,66,"SEED ►",30
+62,2,button,seed_new,1044,372,204,66,"NEW SEED",30
+63,2,seg,target#0,508,466,182,62,"",26
+64,2,seg,target#1,696,466,182,62,"",26
+65,2,seg,target#2,884,466,182,62,"",26
+66,2,toggle,seedlock,1072,466,182,62,"SEED LOCK",26
+67,2,toggle,evolve_on,396,544,204,66,"EVOLVE OFF",26
+68,2,button,every_prev,612,544,204,66,"EVERY ◄",30
+69,2,ro,tx_every,828,544,204,66,"",30
+70,2,button,every_next,1044,544,204,66,"EVERY ►",30
+71,3,knob,prob1,48,62,116,116,"prob1 (live name 35.7 px, value 37.4 px)",36
+72,3,knob,prob2,262,62,116,116,"prob2 (live name 35.7 px, value 37.4 px)",36
+73,3,knob,ratchet,475,62,116,116,"ratchet (live name 35.7 px, value 37.4 px)",36
+74,3,knob,swing,688,62,116,116,"swing (live name 35.7 px, value 37.4 px)",36
+75,3,knob,human,902,62,116,116,"human (live name 35.7 px, value 37.4 px)",36
+76,3,knob,gate,1115,62,116,116,"gate (live name 35.7 px, value 37.4 px)",36
+77,3,ro,tx_scale_full,580,8,210,38,"",30
+78,3,ro,tx_root_full,810,8,150,38,"",30
+79,3,ro,tx_outch,980,8,150,38,"",30
+80,3,button,scale_prev,16,290,172,100,"SCALE ◄",30
+81,3,button,scale_next,204,290,172,100,"SCALE ►",30
+82,3,button,root_prev,16,402,172,100,"ROOT ◄",30
+83,3,button,root_next,204,402,172,100,"ROOT ►",30
+84,3,ro,tx_scale,16,514,172,100,"",30
+85,3,ro,tx_root,204,514,172,100,"",30
+86,3,button,ch1_prev,508,294,182,62,"CH ◄",30
+87,3,ro,tx_ch1,696,294,182,62,"",30
+88,3,button,ch1_next,884,294,182,62,"CH ►",30
+89,3,toggle,mute1,1072,294,182,62,"MUTE",30
+90,3,button,rate1_prev,396,372,204,66,"RATE ◄",30
+91,3,ro,tx_rate1,612,372,204,66,"",30
+92,3,button,rate1_next,828,372,204,66,"RATE ►",30
+93,3,toggle,ratelink,1044,372,204,66,"RATE LINK",26
+94,3,button,ch2_prev,508,466,182,62,"CH ◄",30
+95,3,ro,tx_ch2,696,466,182,62,"",30
+96,3,button,ch2_next,884,466,182,62,"CH ►",30
+97,3,toggle,mute2,1072,466,182,62,"MUTE",30
+98,3,button,rate2_prev,396,544,204,66,"RATE ◄",30
+99,3,ro,tx_rate2,612,544,204,66,"",30
+100,3,button,rate2_next,828,544,204,66,"RATE ►",30
+101,3,toggle,ratelink,1044,544,204,66,"RATE LINK",26
