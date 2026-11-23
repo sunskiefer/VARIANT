@@ -1,6 +1,7 @@
 # Changelog
 
 ## 0.1.2 (tested on a Force)
+- Two builds: `-mpc-armv7.zip` (Force and Gen1, tested on a Force, MPC OS 3.9.1) and `-mpc-aarch64.zip` (Gen2, same code, not tested on a Gen2 device). Tested on the Force only.
 - ADVANCE now plays the next step immediately when the project is stopped (step by hand); while running it still skips one step ahead.
 
 ## 0.1.1 (superseded by 0.1.2)

@@ -36,4 +36,4 @@ A note played into the track transposes both sequences (middle C = no transposit
 The data wheel steps the selected option or value.
 
 ## Status
-Works on the Akai Force (tested by the author). Please report anything odd on the Force or on an MPC.
+Works on the Akai Force (tested by the author, MPC OS 3.9.1). That is the only device it has been tested on. The aarch64 build for Gen2 devices (MPC Live III and kin) is released but not tested on a Gen2 device. Please report anything odd on the Force or on an MPC.
