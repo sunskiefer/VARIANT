@@ -5,7 +5,7 @@ it sends notes to other tracks over MIDI. Two sequences, a bit pattern per step,
 16 scales, chain mode and a pattern buffer. Built from a Max for Live device (Labyrinth) as the model; the panel is our own drawing.
 
 **Status: 0.1.2, tested on a Force.** It is built for MPC OS 3.x (first-generation ARMv7 devices, like the Force).
-The catalog check passes; the sequencer timing, the MIDI port and the touch screen have not been run on real hardware yet.
+Tested by the author on an Akai Force, MPC OS 3.9.1 (see tested.json). Not yet tested on other MPC models.
 
 ## What it does
 - **Page 1 SEQUENCER**: TEMPO, CORR 1/2 (corrupt: mutates a sequence each time it wraps), RANGE 1/2 (octaves), EG MIX (velocity scale);
